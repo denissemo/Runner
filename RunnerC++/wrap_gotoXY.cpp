@@ -4,9 +4,9 @@
 void gotoXY(int column, int line)
 {
 	/*
-	обертка позиции курсора.
-	param: column - позиция курсора в колонке
-	param: line - позиция курсора в линии
+	wrap cursor position.
+	param: column - column cursor position
+	param: line - line cursor position
 	*/
 	COORD coord;
 	coord.X = column;
